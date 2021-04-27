@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ins.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--MENU-->
+    <nav>
+        <ul class="menu">
+            <a href=""> <li><img class="logo" src="img/logo.jpg" alt=""></li> </a>
+            <a href="index.html"> <li>Inicio</li> </a>
+            <a href=""> <li>El Club</li> </a>
+            <a href=""> <li>Actividades</li> </a>
+            <a href=""> <li>Torneo</li> </a>
+            <a href="inscripcion.html"> <li>Inscripción en Linea</li> </a>
+            <a href="videos.html"> <li>Videos</li> </a>
+        </ul>
+    </nav>
+    <!--FORMULARIO-->
+    <article class="cajita">
+        <h1>-- Inscribete --</h1>
+        <div class="caja">
+        <div class="textos">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio praesentium laborum iusto labore. 
+                Officiis atque, corrupti officia quia quo vero impedit unde omnis ut nisi, sed obcaecati tempora 
+                reiciendis voluptas?Repellat aperiam sunt quo, accusantium unde exercitationem voluptas! Atque aut
+                 repudiandae, et consectetur odio provident quisquam sequi soluta quos totam tempore laborum blanditiis 
+                 veritatis similique esse unde obcaecati pariatur ipsam?</p>
+        </div>
+        <form>
+          <p>
+            <fieldset>
+                <h2>Datos personales: </h2>
+              <label>Nombres:*</label><br>
+                   <input type="text" min="12" max="50" id="n1" name="nombre"
+                     pattern="[A-Za-z\s á é í ó ú_]+" required>
+                   <p>
+                    <label for="n1">Apellidos:*</label><br>
+                     <input type="text" min="12" max="50" id="n1" name="apellidos"
+                     pattern="[A-Za-z\s á é í ó ú_]+" required>
+                  </p>
+                  <p>
+                    <label for="n1">Fecha de nacimiento:*</label><br>
+                    <input type="date" name="nacimiento" min="1940-01-01" max="2020-12-31" value="1940-01-01" required>
+                  </p>
+                  <p>
+                    <label for="n1">Edad:*</label><br>
+                    <input type="number" name="edad" min="1" max="150" value="1" required> 
+                  </p>
+                  <p>
+                  <label>Género:*</label><br>
+                  <input class="rad" type="radio" required name="genero" id="r1" value="yes"><label for="r1">Másculino</label>
+                  <input class="rad" type="radio" required name="genero" id="r2" value="no"><label for="r2">Femenino</label>
+                  </p>
+                  <p>
+                    <label for="t2">Correo electrónico:*</label><br>
+                    <input type="email" id="t2" name="email" required>
+                  </p>
+                    <label for="t1">Departamento:*</label><br>
+                    <input type="text" id="t1" name="fruit" list="l1" required>
+                    <datalist id="l1">
+                      <option>Ahuachapán</option>
+                      <option>Santa Ana</option>
+                      <option>Sonsonate</option>
+                      <option>La Libertad</option>
+                      <option>Chalatenango</option>
+                      <option>San Salvador</option>
+                      <option>Cuscatlán</option>
+                      <option>La paz</option>
+                      <option>Cabañas</option>
+                      <option>San Vicente</option>
+                      <option>Usulútan</option>
+                      <option>San Miguel</option>
+                      <option>Morazán</option>
+                      <option>La Unión</option>
+                     </datalist>
+                  </p>
+                  <p>
+                    <label for="t3">Escriba su domicilio:*</label><br>
+                    <textarea id="t3" name="msg" maxlength="140" rows="5" required></textarea>
+                  </p>
+                  <p class="botonXD">
+                    <button>Registrarse</button>
+                  </p>
+            </fieldset>
+          </p>
+ 
+        </form>
+        </article>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <img src="img/face.png" alt="">
+        <img src="img/ig.png" alt="">
+        <img src="img/iutu.png" alt="">
+        <img src="img/twitter.png" alt="">
+        <p>Todos los Derechos Reservados | Yahir Sibrian & Román Gudiel </p>
+    </footer>
+</body>
+</html>

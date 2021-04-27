@@ -1,0 +1,44 @@
+section.videos{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section.videos div.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+div.cajita{
+    width: 45%;
+    min-width: 330px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    margin: 2%;
+    border: 2px outset red;
+}
+iframe{
+    width: 100%;
+    min-width: 315px;
+}
+div.cajita p{
+    padding: 2%;
+    text-align: justify;
+}
+div.cajita p::first-letter{
+    font-size: 2em ;
+    color: red;
+}
+section.videos h1{
+    font-style: italic;
+    font-size: 2em;
+    color: red;
+}
