@@ -1,0 +1,143 @@
+/*NUESTRAS CLASES*/
+
+.nuestras-clases{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    z-index: 1;
+}
+.nuestras-clases h1{
+    color: red;
+    font-style: italic;
+    font-size: 2em;
+}
+article.cajas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.card{
+    width: 25%;
+    min-width: 325px;
+    height: 70%;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    transition: ease-in-out all 0.2s;
+}
+div.card img{
+    width: 100%;
+    min-height: 250px;
+}
+div.card p{
+    text-align: justify;
+}
+div.card h2{
+    padding: 2% 3%;
+    border-bottom: red solid 1.5px;
+}
+div.card:hover{
+    box-shadow: 0px 6px 25px -5px rgba(255,0,0,1);
+    transition: ease-in-out all 0.2s;
+}
+
+/* NUESTROS ALUMNOS */
+section.nuestros-alumnos{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0.5%;
+}
+section.nuestros-alumnos h1{
+    color: white;
+    font-style: italic;
+    font-size: 2em;
+}
+section.nuestros-alumnos p{
+    color: white;
+    width: 95%;
+}
+section.nuestros-alumnos table{
+    color: white;
+    width: 95%;
+    text-align: center;
+    border: white solid 2px;
+    border-collapse: collapse;
+}
+td, th{
+    width: 15%;
+    padding: 7px 5px;
+    border-left: white solid 2px;
+}
+thead {
+    background-color: red;
+    
+}
+thead tr td{
+    font-weight: bold;
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(27, 27, 27);
+}
+/*GALARDONES*/
+section.galardones{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+section.galardones h1{
+    font-style: italic;
+    font-size: 2em;
+}
+div.box ol.main{
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+section.galardones .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cabe{
+    border-bottom: 1.5px solid red;
+}
+.subli{
+    list-style-type: lower-alpha;
+}
+.boxi{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
